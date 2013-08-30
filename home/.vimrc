@@ -56,8 +56,6 @@ filetype off
 set rtp+=~/.vim/bundle/vundle/
 call vundle#rc()
 
-" let Vundle manage Vundle
-" required! 
 Bundle 'gmarik/vundle'
 
 " My Bundles here:
@@ -65,14 +63,9 @@ Bundle 'gmarik/vundle'
 Bundle 'scrooloose/nerdtree'
 Bundle 'Lokaltog/vim-powerline'
 Bundle 'jdonaldson/vaxe'
-" Bundle 'scrooloose/syntastic'
 Bundle 'tomtom/tcomment_vim'
-Bundle 'Shougo/neocomplcache'
 Bundle 'ervandew/supertab'
 Bundle 'tomtom/tlib_vim'
-Bundle 'Rip-Rip/clang_complete'
-Bundle 'msanders/snipmate.vim'
-Bundle 'myhere/vim-nodejs-complete'
 
 filetype on
 filetype plugin on
