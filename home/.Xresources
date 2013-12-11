@@ -1,0 +1,36 @@
+*faceName: DejaVu Sans Mono
+*faceSize: 10
+
+*vt100*geometry: 100x30
+*loginshell: true
+*savelines: 16384
+*charClass: 33:48,36-47:48,58-59:48,61:48,63-64:48,95:48,126:48
+
+xterm*background: #080808
+xterm*foreground: #F6F3E8
+xterm*cursorColor: #858585
+xterm*color0: #2C2C2F
+xterm*color1: #8AC6F2
+xterm*color2: #F6F3E8
+xterm*color3: #CAE682
+xterm*color4: #E5786D
+xterm*color5: #99968B
+xterm*color6: #95E454
+xterm*color7: #95E454
+xterm*color8: #303030
+xterm*color9: #E5786D
+xterm*color10: #CAE682
+xterm*color11: #8AC6F2
+xterm*color12: #8AC6F2
+xterm*color13: #CAE682
+xterm*color14: #F6F3E8
+xterm*color15: #F6F3E8
+
+*utf8: True
+*locale: true
+
+*rightScrollBar: false
+*ScrollBar: false
+
+*customization: -color
+*termName: xterm-256color

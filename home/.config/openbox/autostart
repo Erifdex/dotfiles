@@ -1,0 +1,6 @@
+xcompmgr -cC &
+feh --bg-scale ~/media/pictures/wallpapers/golden_ratio.png &
+killall notification-daemon &
+dunst &
+dbus-launch docky &
+xrdb -merge ~/.Xresources

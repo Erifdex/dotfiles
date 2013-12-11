@@ -34,6 +34,7 @@ set viewoptions=folds,options,cursor,unix,slash
 set virtualedit=onemore
 set laststatus=2
 set encoding=utf-8
+set fileencoding=utf-8
 set cindent
 set autoindent
 set shiftwidth=4
@@ -47,8 +48,7 @@ set autowrite
 imap <C-J> <esc>a<Plug>snipMateNextOrTrigger
 smap <C-J> <Plug>snipMateNextOrTrigger
 
-autocmd CursorMovedI * if pumvisible() == 0|pclose|endif
-autocmd InsertLeave * if pumvisible() == 0|pclose|endif
+au CursorMovedI,InsertLeave * if pumvisible() == 0|silent! pclose|endif
 
 if has('x') && has('gui')
     set clipboard=unnamedplus
@@ -99,7 +99,7 @@ Bundle 'ervandew/supertab'
 Bundle 'tomtom/tlib_vim'
 Bundle 'Valloric/YouCompleteMe'
 Bundle 'vhdirk/vim-cmake'
-Bundle "MarcWeber/vim-addon-mw-utils"
+Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle "garbas/vim-snipmate"
 Bundle "honza/vim-snippets"
 Bundle "Chiel92/vim-autoformat"
@@ -108,6 +108,9 @@ Bundle "vim-scripts/a.vim"
 Bundle "scrooloose/syntastic"
 Bundle 'Raimondi/delimitMate'
 Bundle 'marijnh/tern_for_vim'
+Bundle 'myhere/vim-nodejs-complete'
+Bundle 'digitaltoad/vim-jade'
+Bundle 'wavded/vim-stylus'
 
 filetype on
 filetype plugin on
